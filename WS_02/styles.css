@@ -3,7 +3,7 @@ p {
 }
 body {
     background-color: lightgray;
-}
+    }
 title {
     font-size: 36px;
     font-weight: bold;
@@ -11,14 +11,17 @@ title {
 h1 {
     font-size: 2em;
     font-family: "milker", sans-serif;
+    font-weight: bold;
     
 }
 h2 {
     color: rgb(0, 38, 70);
     font-size: 20px;
+    font-weight: 600;
 }
 h3 {
-    font-size: 18px;
+    font-size: 16px;
+    font-weight: 600;
 }
 img {
     width: 600px;

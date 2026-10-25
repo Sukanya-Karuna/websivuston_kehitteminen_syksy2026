@@ -3,12 +3,21 @@
 <head>
     <title>My First HTML Page</title>
     <style>
+        .content-box0 {
+            box-shadow: 1px 2px 2px 2px black;
+             border-left: 1px dotted darkblue;
+             border-right: 1px dotted darkblue;
+             border-bottom: 2px solid darkblue;
+             border-top: 2px solid darkblue;
+              margin: 10px 1px 10px;
+
+        }
         .content-box {
            padding-top: 5px;
            padding-bottom: 5px;
            padding-left: 10px;
            padding-right: 10px;
-           margin: 5px 5px 5px -10px;
+           margin: 10px 1px 10px;
            background-color: rgb(14, 13, 13);
            border: 3px solid white;
         }
@@ -17,6 +26,7 @@
         }
         .content-box2 {
             margin: 15px;
+            
         }
         
         h3{
@@ -31,6 +41,7 @@
                 border: 1px dotted black;
                 padding: 8px;
                 text-align: left;
+                font-size: 14px;
         }
            
         th {
@@ -38,6 +49,7 @@
                 border: 1px solid black;
                 color: white;
                 text-align: center;
+                font-size: 16px;
         }
         form {
                 display: flex;
@@ -53,7 +65,7 @@
                 border-radius: 4px;
         }
         input[type="submit"] {
-                background-color: #4CAF50;
+                background-color: #0e0563;
                 color: white;
                 padding: 10px;
                 border: none;
@@ -61,15 +73,16 @@
                 cursor: pointer;
         }
         input[type="submit"]:hover {
-                background-color: #45a049;
+                background-color: #090452;
         }
     </style>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+    <body>
     <div class="content-box">
     <h1 style="color: white;">My First HTML Page</h1>
     </div> 
+    <div class="content-box0">
     <div class="content-box1">
     <p>Hello, my name is Sukanya. I am learning HTML.</p>
     </div>
@@ -122,7 +135,6 @@
             <td>Creates a list</td>
         </tr>
     </table>
-<br>
     <form>
         <h2>Enter your details</h2>
         <label for="name">Name:</label>
@@ -131,6 +143,7 @@
         <input type="email" id="email" name="email"><br><br>
         <input type="submit" value="Submit">
     </form>
+    </div>
     </div>
 </body>
 </html>
