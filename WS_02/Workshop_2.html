@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My First HTML Page</title>
+    <style>
+        .content-box {
+           padding-top: 5px;
+           padding-bottom: 5px;
+           padding-left: 10px;
+           padding-right: 10px;
+           margin: 5px 5px 5px -10px;
+           background-color: rgb(14, 13, 13);
+           border: 3px solid white;
+        }
+        .content-box1 {
+             margin: 10px;
+        }
+        .content-box2 {
+            margin: 15px;
+        }
+        
+        h3{
+            color: rgb(231, 50, 119);
+        }
+        table {
+                width: 50%;
+                border: 2px solid black;
+                border-collapse: collapse;
+        }
+        th, td {
+                border: 1px dotted black;
+                padding: 8px;
+                text-align: left;
+        }
+           
+        th {
+                background-color: black;
+                border: 1px solid black;
+                color: white;
+                text-align: center;
+        }
+        form {
+                display: flex;
+                flex-direction: column;
+                gap: 4px;
+        }
+        label {
+                font-weight: bold;
+        }
+        input[type="text"], input[type="email"] {
+                padding: 6px;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+        }
+        input[type="submit"] {
+                background-color: #4CAF50;
+                color: white;
+                padding: 10px;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+        }
+        input[type="submit"]:hover {
+                background-color: #45a049;
+        }
+    </style>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="content-box">
+    <h1 style="color: white;">My First HTML Page</h1>
+    </div> 
+    <div class="content-box1">
+    <p>Hello, my name is Sukanya. I am learning HTML.</p>
+    </div>
+    <img src="HTML.jpg" alt="HTML">
+    <div class="content-box2">
+    <h2>My HTML Learning Journey</h2>
+        <h3>HTML Topics in Order:</h3>
+        <ol>
+            <li>Headings</li>
+            <li>Paragraphs</li>
+            <li>Images</li>
+            <li>Links</li>
+            <li>Lists</li>
+            <li>Tables</li>
+        </ol>
+        <h3>HTML Topics in Random Order:</h3>
+        <ul>
+            <li>Headings</li>
+            <li>Paragraphs</li>
+            <li>Images</li>
+            <li>Links</li>
+            <li>Lists</li>
+            <li>Tables</li>
+        </ul>
+        <a href="https://laurea-ammattikorkeakoulu-tikkurila.github.io/Verkkosivut-OPS25/WS01/index.html" target="_blank">Click here to learn more about HTML</a>
+    <table>
+        <h2>HTML Elements and Their Purpose</h2>
+        <tr>
+            <th>HTML elements</th>
+            <th>Purpose</th>
+        </tr>
+        <tr>
+            <td>Heading</td>
+            <td>Creates a heading</td>
+        </tr>
+        <tr>    
+            <td>Paragraph</td>
+            <td>Displays text on a webpage</td>
+        </tr>
+        <tr>
+            <td>Image</td>
+            <td>Displays an image on a webpage</td>
+        </tr>
+        <tr>
+            <td>Link</td>
+            <td>Creates a hyperlink</td>
+        </tr>
+        <tr>
+            <td>List</td>
+            <td>Creates a list</td>
+        </tr>
+    </table>
+<br>
+    <form>
+        <h2>Enter your details</h2>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+    </div>
+</body>
+</html>
