@@ -8,19 +8,26 @@ title {
     font-size: 36px;
     font-weight: bold;
 }
+p {
+    font-size: 20px;
+    font-family: "arial", sans-serif;
+    padding: 10px 10px 10px 10px;
+    text-align: justify;
+}
 h1 {
-    font-size: 2em;
+    font-size: 3em;
     font-family: "milker", sans-serif;
     font-weight: bold;
     
 }
 h2 {
     color: rgb(0, 38, 70);
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 600;
+    font-family: "arial", sans-serif;
 }
 h3 {
-    font-size: 16px;
+    font-size: 24px;
     font-weight: 600;
 }
 img {
@@ -30,4 +37,26 @@ img {
     border: 3px solid #ccc;
     display: block;
     margin: 0 auto;
+}
+th, td {
+    font-size: 20px;
+    font-family: "arial", sans-serif;
+}
+ol {
+    font-size: 18px;
+    font-family: "arial", sans-serif;
+}
+ul {
+    font-size: 18px;
+    font-family: "arial", sans-serif;
+}
+form {
+    font-size: 20px;
+    font-family: "arial", sans-serif;
+}
+a{
+    font-size: 20px;
+    color: rgb(2, 78, 15);
+    font-family: "arial", sans-serif;
+    
 }
