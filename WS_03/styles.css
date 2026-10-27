@@ -1,0 +1,113 @@
+p {
+    color: black;
+}
+
+body {
+    background-color: lightgray;
+}
+
+title {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 20px;
+    font-family: "arial", sans-serif;
+    padding: 10px 10px 10px 10px;
+    text-align: justify;
+}
+
+h1 {
+    font-size: 3em;
+    font-family: "milker", sans-serif;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+h2 {
+    color: rgb(0, 38, 70);
+    font-size: 30px;
+    font-weight: 600;
+    font-family: "Arial Black", sans-serif;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Arial Black", sans-serif;
+}
+
+img {
+    width: 1400px;
+    height: 600px;
+    border-radius: 8px;
+    border: 3px solid #ccc;
+    display: block;
+    margin: 0 auto;
+}
+
+th,
+td {
+    font-size: 20px;
+
+}
+
+td {
+    font-family: "arial", sans-serif;
+}
+
+ol {
+    font-size: 18px;
+    font-family: "arial", sans-serif;
+}
+
+ul {
+    font-size: 18px;
+    font-family: "arial", sans-serif;
+}
+
+form {
+    font-size: 20px;
+    font-family: "arial", sans-serif;
+}
+
+a {
+    font-size: 20px;
+    color: rgb(2, 78, 15);
+    font-family: "arial", sans-serif;
+
+}
+
+.transition-button {
+    background-color: #0b217f;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.transition-button:hover {
+    background-color: #090452;
+}
+.animation-box {
+    width: 100px;
+    height: 100px;
+    background-color: #0b217f;
+    transition: move 2s ease;
+}
+@keyframes move {
+    from {
+        left: 0;
+    }
+    to {
+        left: 100px;
+    }
+}
+.pseudo-list li:nth-child(odd) {
+    background-color: rgb(141, 124, 124);
+}
+.pseudo-list li:nth-child(even) {
+    background-color: rgb(234, 234, 241);
+}
