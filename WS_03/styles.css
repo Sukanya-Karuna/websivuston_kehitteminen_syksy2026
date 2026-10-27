@@ -91,23 +91,28 @@ a {
 .transition-button:hover {
     background-color: #090452;
 }
+
 .animation-box {
     width: 100px;
     height: 100px;
     background-color: #0b217f;
     transition: move 2s ease;
 }
+
 @keyframes move {
     from {
         left: 0;
     }
+
     to {
         left: 100px;
     }
 }
+
 .pseudo-list li:nth-child(odd) {
     background-color: rgb(141, 124, 124);
 }
+
 .pseudo-list li:nth-child(even) {
     background-color: rgb(234, 234, 241);
 }
