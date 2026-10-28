@@ -66,6 +66,7 @@ ol {
 ul {
     font-size: 18px;
     font-family: "arial", sans-serif;
+    word-spacing: 10px;
 }
 
 form {
@@ -89,30 +90,50 @@ a {
 }
 
 .transition-button:hover {
-    background-color: #090452;
+    background-color: #077723;
 }
-
 .animation-box {
-    width: 100px;
-    height: 100px;
-    background-color: #0b217f;
-    transition: move 2s ease;
+    width: 50px;
+    height: 20px;
+    background-color: #125e2b;
+    position: relative;
+    animation: move 2s infinite alternate;
 }
-
 @keyframes move {
     from {
         left: 0;
     }
-
     to {
         left: 100px;
     }
 }
-
 .pseudo-list li:nth-child(odd) {
-    background-color: rgb(141, 124, 124);
+    background-color: rgb(95, 95, 95);
+    color: rgb(2, 1, 1);
+   width: 50%;
 }
-
 .pseudo-list li:nth-child(even) {
-    background-color: rgb(234, 234, 241);
+    background-color: rgb(244, 247, 247);
+    width: 50%;
+}
+.filter-image {
+    filter: grayscale(100%);
+    transition: filter 0.3s ease;
+}
+.filter-image:hover {
+    filter: grayscale(0%);
+}
+.quote {
+    position: relative;
+    padding-left: 20px;
+    font-style: italic;
+    font-weight: bold;
+}
+.quote::before {
+    content: "“";
+    font-size: 40px;
+    position: absolute;
+    left: 0;
+    top: -18px;
+    color: #aa1111;
 }
