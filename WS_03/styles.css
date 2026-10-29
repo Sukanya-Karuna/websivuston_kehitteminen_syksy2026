@@ -66,12 +66,24 @@ ol {
 ul {
     font-size: 18px;
     font-family: "arial", sans-serif;
-    word-spacing: 10px;
+    font-weight: 600;
+   
 }
 
 form {
     font-size: 20px;
     font-family: "arial", sans-serif;
+    width: 400px;
+}
+input{
+    display: block;
+    margin-bottom: 10px 100px 10px 100px;
+   
+}
+label {
+    
+    display: block;
+    margin-bottom: 5px;
 }
 
 a {
@@ -90,7 +102,7 @@ a {
 }
 
 .transition-button:hover {
-    background-color: #077723;
+    background-color: #084918;
 }
 .animation-box {
     width: 50px;
@@ -108,14 +120,18 @@ a {
     }
 }
 .pseudo-list li:nth-child(odd) {
-    background-color: rgb(95, 95, 95);
-    color: rgb(2, 1, 1);
-   width: 50%;
+    background-color: rgb(20, 1, 18);
+    width: 50%;
+    height: 30px;
+    color: white;
+   
 }
 .pseudo-list li:nth-child(even) {
-    background-color: rgb(244, 247, 247);
+    background-color: rgb(243, 240, 245);
     width: 50%;
+    height: 30px;
 }
+
 .filter-image {
     filter: grayscale(100%);
     transition: filter 0.3s ease;
@@ -128,6 +144,7 @@ a {
     padding-left: 20px;
     font-style: italic;
     font-weight: bold;
+    top: 5px;
 }
 .quote::before {
     content: "“";
