@@ -1,0 +1,174 @@
+p {
+    color: black;
+}
+
+body {
+    background-color: lightgray;
+}
+
+title {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 20px;
+    font-family: "arial", sans-serif;
+    padding: 10px 10px 10px 10px;
+    text-align: justify;
+}
+
+h1 {
+    font-size: 3em;
+    font-family: "milker", sans-serif;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+h2 {
+    color: rgb(0, 38, 70);
+    font-size: 30px;
+    font-weight: 600;
+    font-family: "Arial Black", sans-serif;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Arial Black", sans-serif;
+}
+
+img {
+    width: 1400px;
+    height: 600px;
+    border-radius: 8px;
+    border: 3px solid #ccc;
+    display: block;
+    margin: 0 auto;
+}
+
+th,
+td {
+    font-size: 20px;
+
+}
+
+td {
+    font-family: "arial", sans-serif;
+}
+
+ol {
+    font-size: 18px;
+    font-family: "arial", sans-serif;
+}
+
+ul {
+    font-size: 18px;
+    font-family: "arial", sans-serif;
+    font-weight: 600;
+   
+}
+
+form {
+    font-size: 20px;
+    font-family: "arial", sans-serif;
+    width: 400px;
+}
+input{
+    display: block;
+    margin-bottom: 10px 100px 10px 100px;
+   
+}
+label {
+    
+    display: block;
+    margin-bottom: 5px;
+}
+
+a {
+    font-size: 20px;
+    color: rgb(2, 78, 15);
+    font-family: "arial", sans-serif;
+
+}
+
+.transition-button {
+    background-color: #0b217f;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.transition-button:hover {
+    background-color: #084918;
+}
+.animation-box {
+    width: 50px;
+    height: 50px;
+    background-color: #125e2b;
+    position: relative;
+    animation: move 2s infinite alternate;
+}
+@keyframes move {
+    from {
+        left: 0;
+    }
+    to {
+        left: 100px;
+    }
+}
+.pseudo-list li:nth-child(odd) {
+    background-color: rgb(20, 1, 18);
+    width: 50%;
+    height: 30px;
+    color: white;
+   
+}
+.pseudo-list li:nth-child(even) {
+    background-color: rgb(243, 240, 245);
+    width: 50%;
+    height: 30px;
+}
+
+.filter-image {
+    filter: grayscale(100%);
+    transition: filter 0.3s ease;
+}
+.filter-image:hover {
+    filter: grayscale(0%);
+}
+.quote {
+    position: relative;
+    padding-left: 20px;
+    font-style: italic;
+    font-weight: bold;
+    top: 5px;
+}
+.quote::before {
+    content: "“";
+    font-size: 40px;
+    position: absolute;
+    left: 0;
+    top: -18px;
+    color: #aa1111;
+}
+footer {
+    font-style: italic;
+    font-weight: 600;
+    font-size: x small;
+    font-family: 'Times New Roman', Times, serif;
+    text-align-last: center;
+}
+.responsive-box {
+  padding: 20px;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .responsive-box {
+    background-color: green;
+  }
+}
+
