@@ -2,25 +2,29 @@
 <html lang="en">
 
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Workshop 4 - Page Layout Techniques</title>
     <link rel="stylesheet" href="styles1.css">
 </head>
 
 <body>
     <!-- Task 1: Semantic Elements -->
-   <header>
-  <h1>My First HTML Page</h1>
-  <nav>
-    <ul>
-      <li><a href="#about">About</a></li>
-      <li><a href="#services">Services</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
-</header>
+    <header>
+        
+        <div class="content-box">
+        <h1> Page Layout Techniques</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#layout">Page Layout</a></li>
+                <li><a href="#topics">Page Layout Topics</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-<main>
- 
+    <main class="text">
         <section id="about">
             <h2>About Me</h2>
             <p>Hello! My name is Sukanya, and I am a Business Information Technology student at a University of Applied
@@ -29,35 +33,66 @@
                 goal is to develop innovative applications, solve real-world problems, and build a successful career in
                 the IT industry.</p>
         </section>
-    </main>
-    
-    <!--Task 2: Create a Grid Layout-->
-    <div class="grid-container"></div>
-    <div class="grid-item">Headings</div>
-    <div class="grid-item">Paragraphs</div>
-    <div class="grid-item">Images</div>
-    <div class="grid-item">Links</div>
-    <div class="grid-item">Lists</div>
-    <div class="grid-item">Tables</div>
+        <section id="layout">
+            <h2>What is page layout?</h2>
+            <p>Page layout refers to the arrangement and organization of elements on a web page. It involves determining the position, size, and relationship of various components such as headers, footers, navigation menus, content areas, and other visual elements. Effective page layout is crucial for creating a visually appealing and user-friendly website that provides a good user experience.</p>
+        </section>
+        <section id="topics">
+            <h2>Page Layout Techniques</h2>
+            <ol>
+                <li>Semantic Elements</li>
+                <li>HTML Paragraphs</li>
+                <li>Grid Layout</li>
+                <li>Flexbox Layout</li>
+                <li>Media Queries</li>
+                <li>Responsive Design</li>
+            </ol>
+            </section>
 
-    <!--Task 3: Create a Flexbox Layout-->
-    <div class="flex-container">
-        <div class="box">Box 1</div>
-        <div class="box">Box 2</div>
-        <div class="box">Box 3</div>
-    </div>
-<section id="contact"></section>
-<form>
-                    <h2>Enter your details</h2>
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="name">
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email">
-                    <input style="margin: 5px 50px 5px 15px;" type="submit" value="Submit">
-                </form>
-<!--Task 4: Add Media Queries-->
-<div class="responsive-box">Resize the window to see the effect</div>
-<footer>
+
+        <!--Task 2: Create a Grid Layout-->
+        <section>
+        <h2>Page Layout Topics</h2>
+        <div class="grid-container">
+        <div class="grid-item">Semantic Elements</div>
+        <div class="grid-item">HTML Paragraphs</div>
+        <div class="grid-item">Grid Layout</div>
+        <div class="grid-item">Flexbox Layout</div>
+        <div class="grid-item">Media Queries</div>
+        <div class="grid-item">Responsive Design</div>
+        </div>
+        </section>
+
+        <!--Task 3: Create a Flexbox Layout-->
+        <div class="flex-container">
+            <div class="box">Box 1</div>
+            <div class="box">Box 2</div>
+            <div class="box">Box 3</div>
+        </div>
+
+   
+    
+    <hr>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+        <h3>Enter your details</h3>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"> <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required maxlength="1000"> <br>
+        <label for="message">Message:</label>
+        <input type="message" id="message" name="message"> <br>
+        <label for="subscribe">Newsletter:</label>
+        <input type="checkbox" id="subscribe" name="subscribe"> <br>
+        <input style="margin: 5px 50px 5px 50px;" type="submit" value="Submit"><br>
+    </form> <br>
+    </section>
+     </main>
+    <!--Task 4: Add Media Queries-->
+    <div class="responsive-box">Resize the window to see the effect</div>
+
+    <footer>
         <p>Copyright 2026</p>
     </footer>
 </body>
