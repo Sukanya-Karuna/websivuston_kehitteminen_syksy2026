@@ -11,14 +11,15 @@
     border-radius: 5px;
     min-width: 0;
 
-   }
-    section p {
-        padding: 10px;
-      
-        text-align: justify;
-        
+}
 
-    }
+section p {
+    padding: 10px;
+
+    text-align: justify;
+
+
+}
 
 @media (max-width: 600px) {
     .column {
