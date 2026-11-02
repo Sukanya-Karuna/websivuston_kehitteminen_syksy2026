@@ -9,26 +9,55 @@
 </head>
 
 <body>
-    <div class="responsive-container">
-        <div class="column">Column 1 </div>
-        <dive class="column">Column 2</dive>
-    </div>
-
-    <!-- Task 2: Add a Responsive Image -->
-    <img src="/WS_05/Html.jpg" alt="HTML" class="responsive-image">
     
-    <!-- Task 3:  Use Media Queries-->
-    <div class="media-query-box">Resize the window to see the effect</div>
 
     <!--Task 4: Create a Responsive Navigation Bar-->
     <nav class="responsive-nav">
-        <button class="menu-toggle">☰ Menu</button>
+        <button class="menu-toggle" type="button">☰ Menu</button>
         <ul class="nav-list">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="Home.html" target="_blank">Home</a></li>
+            <li><a href="About.html" target="_blank">About</a></li>
+            <li><a href="#contact" >Contact</a></li>
         </ul>
     </nav>
+
+    <div class="responsive-container">
+        <div class="column">
+            <section>
+                <h1>Responsive Layout</h1>
+                <p>Responsive web design ensures that web pages look good and function well on a variety of devices and screen sizes. It uses flexible grids, layouts, images, and CSS media queries to adapt the design to different viewing environments.</p>
+            </section>
+        </div>
+        <div class="column"> 
+            <section>
+                <h1>Fluid Grids and Flexible Images</h1>
+                <p>Fluid grids and flexible images are fundamental components of responsive web design. Fluid grids use relative units (such as percentages) instead of fixed units (like pixels) to define the width of elements, allowing layouts to adapt to different screen sizes. Flexible images scale within their containing elements, ensuring they do not overflow or distort the layout.</p>
+            </section>
+        </div>
+    </div>
+
+       
+    <!-- Task 2: Add a Responsive Image -->
+    <img src="Html.jpg" alt="HTML" class="responsive-image">
+
+  <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+        <h3>Enter your details</h3>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"> <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"> <br>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message"></textarea> <br>
+        <label for="subscribe">Newsletter:</label>
+        <input type="checkbox" id="subscribe" name="subscribe"> <br>
+        <input style="margin: 5px 50px 5px 50px;" type="submit" value="Submit"><br>
+    </form> <br>
+    </section>
+    
+    <!-- Task 3:  Use Media Queries-->
+    <div class="media-query-box">Resize the window to see the effect</div>
 </body>
 
 </html>
