@@ -27,10 +27,17 @@ section p {
     }
 }
 
+
 .responsive-image {
     max-width: 100%;
     height: auto;
     display: block;
+    border-style: solid;
+    border-color: white;
+    margin: 10px 0px 0px 0px;
+    box-sizing: border-box;
+    
+  
 }
 
 .media-query-box {
@@ -50,6 +57,12 @@ section p {
     }
 }
 
+button {
+    font-family: Arial, sans-serif;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
 .responsive-nav .nav-list {
     display: flex;
     list-style: none;
@@ -57,6 +70,8 @@ section p {
     align-items: center;
     padding: 0;
     gap: 30px;
+    font-size: 1.5em;
+    font-weight: 600;
 }
 
 @media (max-width: 600px) {
@@ -67,4 +82,80 @@ section p {
     .responsive-nav .menu-toggle {
         display: block;
     }
+}
+body {
+  
+   background-color: silver;
+}
+form {
+  font-size: 1.2em;
+  font-family: arial, sans-serif;
+  text-align: left;
+  color: black;
+}
+.form-container label {
+  display: inline-block;
+  width: 100px;
+}
+input[type="text"],
+input[type="email"],
+textarea[name="message"] {
+    width: 300px;
+    max-width: 100%;
+    padding: 8px;
+    margin: 5px 0  ;
+    box-sizing: border-box;
+    display: block;
+}
+
+textarea[name="message"] {
+    height: 100px;
+}
+
+
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  margin: 10px;
+}
+
+input[type="submit"] {
+  background-color: darkblue;
+  color: white;
+  padding: 10px 20px;
+  margin: 10px 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 1em;
+  font-family: arial, sans-serif;
+}
+
+
+
+@media (max-width: 600px) {
+        .form-container {
+        width: 100%;
+    
+}
+  input[type="text"],
+  input[type="email"],
+  textarea[name="message"] {
+    width: 100%;
+    max-width: 300px;
+  
+    
+  }
+
+}
+
+h2 {
+   font-family: arial, sans-serif;
+  font-size: 1.5em;
+  color: darkblue;
+}
+h1 {
+   font-family: arial, sans-serif;
+  font-size: 2em;
+  color: darkblue;
+  
 }
