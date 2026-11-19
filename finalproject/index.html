@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartStock</title>
+
+    <link rel="stylesheet" href="styles.css">
+  
+</head>
+<body>
+    <div class="grid-container">
+        <header class="header">
+    <div class="menu-icon" onclick="openSidebar()">
+        <span class="material-icons">menu</span>
+    </div>
+    <div class="header-left"></div>
+    <div class="header-right"></div>
+        </header>
+        <aside class="sidebar">
+            <nav>
+                <ul>
+                    <li><a href="#">Dashboard</a></li>
+                    <li><a href="#">Inventory</a></li>
+                    <li><a href="#">Orders</a></li>
+                    <li><a href="#">Reports</a></li>
+                    <li><a href="#">Settings</a></li>
+                </ul>
+            </nav>
+        </aside>
+        <main class="main-content"> 
+        <div class="login-form">
+            <h2>Login</h2>
+            <form id="loginForm">
+                <input type="text" id="username" placeholder="Username" required>
+                <input type="password" id="password" placeholder="Password" required>
+                <button type="submit">Login</button>
+            </form>
+            <p id="error-message"></p>
+        </div>
+    </div>
+   
+    <script src="script.js"></script>
+    
+</body>
+</html>
